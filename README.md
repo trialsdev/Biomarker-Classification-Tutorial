@@ -1,9 +1,6 @@
 # Biomarker Classification Cloud Migration Code
 
-![class_workflow](https://user-images.githubusercontent.com/85404022/204656873-ffe04afc-e102-4e91-aa3e-698f6d777f92.png)
-
-
-This repository contains code that helps you to create a medical image segmentation workflow in the Google Cloud Platform (GCP). The model we are using in this example is the <a href = "https://github.com/msharrock/deepbleed">Deepbleed</a> model which is used for ICH Segmentation in the Brain. The code will create the following infrastructure in GCP. 
+This repository contains code that helps you to create a medical image classification workflow in the Google Cloud Platform (GCP). The code will create the following infrastructure in GCP. 
 
 <img src = "https://user-images.githubusercontent.com/85404022/204656873-ffe04afc-e102-4e91-aa3e-698f6d777f92.png" width = 750, height = 500></img>
 
@@ -41,12 +38,12 @@ terraform apply
 In order to test the code, you can move the data in the "data_bucket" to the "input_bucket" to invoke the cloud run app. The resulting files will be saved in the "output_bucket". Run the following command in the google cloud shell to move the file to the "input_bucket". (Note that you can manually upload an object to the "input_bucket" as well)
 
 ```
-gsutil cp gs://bst_data_bucket/test gs://bst_input_bucket/test.nii.gz
+
 ```
 Using GCP CLI
 
 ```
-gcloud storage cp gs://bst_data_bucket/test.nii.gz gs://bst_input_bucket/test.nii.gz
+
 ```
 
 ## Destroy the infrastructure ##
