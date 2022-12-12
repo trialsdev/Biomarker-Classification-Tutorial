@@ -15,7 +15,7 @@ The following billable resources from GCP will be used in this example.
 
 ## Setup & Requirements ##
 
-In order to run the code you will need a Google Cloud Platform Account with a billing account.
+In order to run the code you will need a billing enabled GCP Account. Click <a href = "https://cloud.google.com/billing/docs/how-to/manage-billing-account"> here </a> to learn how to setup a GCP billing account.
 
 The following tools are required to be installed in your local machine in order to run the code.
 
