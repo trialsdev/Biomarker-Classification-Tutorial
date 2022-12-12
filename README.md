@@ -23,6 +23,8 @@ The following tools are required to be installed in your local machine in order 
 
 2. <a href = "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli"> Terraform </a>
 
+3. <a href = "https://docs.docker.com/get-docker/"> Docker </a>
+
 ## Run Code ##
 
 ```
