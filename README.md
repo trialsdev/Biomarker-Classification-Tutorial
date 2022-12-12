@@ -4,6 +4,11 @@ This repository contains code that helps you to create a medical image classific
 
 <img src = "https://user-images.githubusercontent.com/85404022/204656873-ffe04afc-e102-4e91-aa3e-698f6d777f92.png" width = 750, height = 500></img>
 
+The code uses the winning <a href = "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117210#latest-680918"> model </a> from the <a href = "https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/rsna-intracranial-hemorrhage-detection-challenge-2019"> 2019 Kaggle RSNA ICH Detection Challenge </a> to create a GCP infrastructure to classify ICH location given a batch of DICOM images. The GCP infrastructure expects a zipped folder with DICOM files and outputs a csv containing the ICH location of each file.
+
+**Please note that the aim of this repository is to share the GCP infrastructure. In order to minimize the resources used by GCP, we have recreated only a part of the <a href = "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117210#latest-680918"> model </a>. So the results created by this model is suboptimal.**
+
+
 ## Billable Resources ##
 
 The following billable resources from GCP will be used in this example.
