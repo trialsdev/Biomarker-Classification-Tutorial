@@ -25,6 +25,20 @@ The following tools are required to be installed in your local machine in order 
 
 3. <a href = "https://docs.docker.com/get-docker/"> Docker </a>
 
+## Add credentials ##
+
+Before running the code first you need to edit the var.tf file. Locate this file in terraform directory and edit the billing account name and the user email address. 
+
+```
+variable "billing_account_name" {
+    default = "your billing account name"
+}
+
+variable "user" {
+    default = "your GCP email address"
+}
+```
+
 ## Run Code ##
 
 ```
