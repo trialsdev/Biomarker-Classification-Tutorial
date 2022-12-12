@@ -75,6 +75,7 @@ terraform destroy
 
 ## Additional Information ##
 
+- While destroying the infrastructure, if you recieve an error that says a certain "API is disabled", please go to GCP platform by clicking the corresponding link. Then enable the API and run ```terraform destroy``` again in your local machine.
 
 ## References & Useful Links ##
 
