@@ -1,0 +1,15 @@
+Flask
+gunicorn
+google-cloud-storage
+pandas
+numpy
+torch==1.1.0
+torchvision==0.3.0
+tqdm
+opencv-contrib-python
+pathlib
+scikit-image==0.14.2
+joblib
+pydicom
+seaborn
+pretrainedmodels
