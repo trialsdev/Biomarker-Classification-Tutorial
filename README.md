@@ -40,12 +40,12 @@ terraform apply
 In order to test the code, you can move the data in the "data_bucket" to the "input_bucket" to invoke the cloud run app. The resulting files will be saved in the "output_bucket". Run the following command in the google cloud shell to move the file to the "input_bucket". (Note that you can manually upload an object to the "input_bucket" as well)
 
 ```
-
+gsutil cp gs://bc_data_bucket/sample_files.zip gs://bc_input_bucket/sample_files.zip
 ```
 Using GCP CLI
 
 ```
-
+gcloud storage cp gs://bc_data_bucket/sample_files.zip gs://bc_input_bucket/sample_files.zip
 ```
 
 ## Destroy the infrastructure ##
