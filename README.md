@@ -80,7 +80,7 @@ terraform destroy
 
 ## References & Useful Links ##
 
-- Google Cloud Pub/Sub <a href = "https://cloud.google.com/pubsub/docs/tutorials"> tutorials </a>.
-- Google Cloud run <a href = "https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3#6"> tutorials </a>
-- Google Cloud - Terraform <a href = "https://cloud.google.com/docs/terraform/get-started-with-terraform"> documentation </a>
-- Terraform - Google Cloud <a href = "https://registry.terraform.io/providers/hashicorp/google/latest/docs"> documentation </a>
+- <a href = "https://cloud.google.com/pubsub/docs/tutorials"> Google Cloud Pub/Sub tutorials </a>.
+- <a href = "https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3#6"> Google Cloud run tutorials </a>
+- <a href = "https://cloud.google.com/docs/terraform/get-started-with-terraform"> Google Cloud - Terraform documentation </a>
+- <a href = "https://registry.terraform.io/providers/hashicorp/google/latest/docs"> Terraform - Google Cloud documentation </a>
